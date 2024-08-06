@@ -6,31 +6,32 @@ import { FaLocationDot } from "react-icons/fa6";
 
 const dataHome = [
   {
-    img: `https://studiokhozi.com/wp-content/uploads/2022/02/Pegasus.jpeg`,
-    place: `M3M Alltitude`,
-    sector: `Sector 65, Gurgaon`,
-    price: `On Request`,
-  },
-  {
-    img: `https://api2.smartworksoffice.com/Upload/546fab80-9efa-4fb5-b28a-0d68ad96a15fSmartworks-WTT-Office-faccade.jpg`,
-    place: `White Land Urban Resort`,
-    sector: `Sector 103, Gurgaon`,
-    price: `On Request`,
-  },
-  {
-    img: `https://maxestates.in/wp-content/uploads/2024/01/ms-gallery-big-1.jpg`,
-    place: `M3M Alltitude`,
-    sector: `Sector 65, Gurgaon`,
-    price: `On Request`,
-  },
-  {
-    img: `https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRzxcTY-XiEoqdmeob3A0ZylB_2_vl1cO8kZw&s`,
-    place: `M3M Mansion`,
+    img: `Smartworld.webp`,
+    place: `Smartworld One DXP`,
     sector: `Sector 113, Gurgaon`,
     price: `On Request`,
   },
   {
-    img: `https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRzxcTY-XiEoqdmeob3A0ZylB_2_vl1cO8kZw&s`,
+    img: `M3M.webp`,
+    place: `M3M Alltitude`,
+    sector: `Sector 65, Gurgaon`,
+    price: `On Request`,
+  },
+  {
+    img: `Mansion.webp`,
+    place: `M3M Mansion`,
+    sector: `Sector 103, Gurgaon`,
+    price: `On Request`,
+  },
+  {
+    img: `M3M.webp`,
+    place: `M3M Alltitude`,
+    sector: `Sector 65, Gurgaon`,
+    price: `On Request`,
+  },
+ 
+  {
+    img: `M3M.webp`,
     place: `M3M Alltitude`,
     sector: `Sector 65, Gurgaon`,
     price: `On Request`,
