@@ -1,0 +1,43 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+.slick-slide > div{
+    margin: 0 10px;
+}
+.slick-prev:before,
+.slick-next:before {
+    color: rgb(192, 185, 185);
+    font-size: 32px;
+}
+
+.slick-center .card {
+  transform: scale(1.2);
+  transition: transform 0.3s ease, border 0.3s ease;
+}
+
+.slick-slide {
+  transition: transform 0.3s ease, border 0.3s ease;
+}
+
+.slick-slide:not(.slick-center) .card {
+  transform: scale(0.8);
+  border: none; /* Remove the border for non-centered cards */
+}
+.slick-center .card {
+  transform: scale(1.2);
+  opacity: 1; /* Full opacity for the centered card */
+  transition: transform 0.3s ease, border 0.3s ease, border-radius 0.3s ease, opacity 0.3s ease;
+}
+
+.slick-slide {
+  transition: transform 0.3s ease, border 0.3s ease, border-radius 0.3s ease, opacity 0.3s ease;
+}
+
+.slick-slide:not(.slick-center) .card {
+  transform: scale(0.8);
+  border: none; /* Remove the border for non-centered cards */
+  border-radius: 20px; /* Ensure border-radius is consistent */
+  opacity: 0.5; /* Lower opacity for non-centered cards */
+}
+
+
